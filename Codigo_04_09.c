@@ -33,10 +33,10 @@ int main(int argc, char *argv[]) {
     // Ciclo principal para repetir el programa si el usuario lo desea
    Ordenar_Mas = 's'; 
 
-    while (Ordenar_Mas == 's' || Ordenar_Mas == 'S') {
+    while (Ordenar_Mas == 's') {
     contador = 0; 
     
-    printf("\nHola, digita a continuacion la cantidad de numeros deseada (maximo 10): ");
+    printf("\n Digita a continuacion la cantidad de numeros deseada (maximo 10): ");
     scanf("%d", &N_max);
     
     // Ingreso de datos
